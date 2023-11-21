@@ -1,0 +1,226 @@
+/************************************************************************************************************************************************
+************************************************************************************************************************************************
+************************************************************************
+
+Filename: style.css
+Author: Lizbeth Castaneda
+Copyright: 2023 - All rights reserved
+
+************************************************************************************************************************************************
+************************************************************************/
+
+
+/**********************************************************************
+**********************************************************************
+
+==================
+Table of Contents
+==================
+1. HTML Body Styles
+2. Heading Styles
+3. Main Body Styles
+4. Footer Styles
+
+**********************************************************************
+**********************************************************************/
+
+
+/****************************  MAIN STYLES  ***********************************/
+
+/**********************
+1. HTML Body Styles
+**********************/
+
+header, main {
+    margin: auto;
+   
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e5ddcd;
+}
+
+/**********************
+2. Heading Styles
+**********************/
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 5px;
+    color: #164beb;
+    
+   
+}
+
+.text-center {
+    width: 100%;
+   
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #098fef;
+    margin: 7px 0px;
+}
+
+ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/**********************
+3. Main Body Styles
+**********************/
+
+img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    display: block;
+}
+
+main {
+    max-width: 980px; 
+    text-align: justify;
+}
+
+p {
+    font-size: 16px;
+}
+
+.carousel-inner img {
+    height: 20%;
+
+}
+
+.dropdown-item {
+    font-size: 15px;
+}
+
+.contenedor {
+    display: flex;
+    padding: 70px;
+    
+}
+
+.card-body {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+
+/**********************
+4. Footer Styles
+**********************/
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size: 3em;
+    background-color: #a2b5bb;
+    padding: 15px 0px;
+    color: white;
+}
+
+/****************************  MEDIA STYLES - 600px  ***********************************/
+
+@media all and (max-width: 600px)
+{
+
+    body {
+        background-color: rgb(123, 209, 233);
+    }
+
+    header, main, footer{
+        max-width: 100%;
+    }
+
+    h1, h2 {
+        color: rgb(0, 0, 74);
+    }
+    
+    img{
+        width: 70%;
+        height: 70%;
+    }
+
+       
+    footer {
+        background-color: rgb(0, 0, 74);
+        color: white;
+    }
+
+}
+
+/****************************  MEDIA STYLES - 480px  ***********************************/
+
+@media screen and (max-width: 480px)
+{
+    body {
+        background-color: #e6b05f;
+    }
+
+    header, main, footer{
+        max-width: 100%;
+        min-width: 261px;
+    }
+
+    h1, h2 {
+        color: maroon;
+    }
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 36px;
+    }
+
+    
+    footer {
+        background-color: maroon;
+    }
+    
+}
+
+/****************************  MEDIA STYLES - 1025px  ***********************************/
+/* @media screen and (max-width: 1025px) {
+    body {
+        background-color: darksalmon;
+    }
+    header, main, footer{
+        max-width: 100%;
+    }
+    h1 {
+        max-width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 36px;
+    }
+    footer {
+        background-color: rgb(46, 101, 125);
+    }
+} */
